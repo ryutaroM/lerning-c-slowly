@@ -17,4 +17,7 @@ int main()
     printf("%d\n", 1 + 2);
     printf("%d\n", 10 - 4);
     printf("%d\n", -50 + 50 + 100);
+    printf("%d\n", 10 * 10);
+    printf("%d\n", 10 / 5);
+    printf("%d\n", 10 / 5 * 2);
 }
