@@ -21,4 +21,5 @@ int main()
     printf("%d\n", 10 / 5);
     printf("%d\n", 10 / 5 * 2);
     printf("%d\n", 10 / 3);
+    printf("%d\n", 10 % 3);
 }
