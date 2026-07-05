@@ -82,4 +82,34 @@ int main()
 
     // invalid
     //  printf("%f\n", (10.0%3.0));
+
+    printf("%f\n", (1.5 + 2));
+    printf("%f\n", (0.1 + 1 / 2));
+
+    printf("%f\n", (1.0 / 2 + 0.1));
+
+    // ivalid format specifier
+    //  printf("%f\n", (21 / 2));
+
+    printf("APPLE\n");
+    printf("le\n");
+
+    printf("80%%\n");
+    printf("%d%%\n", 90);
+    puts("80%");
+
+    // invalid format specifier
+    // printf("50%dog!100%frog!\n");
+
+    printf("%5d\n", 1);
+    printf("%5d\n", 123456);
+
+    printf("%02d:%02d:%02d\n", 1, 2, 3);
+
+    printf("###%5d###\n", 123);
+    printf("###%-5d###\n", 123);
+
+    printf("| %-5d |\n", 123);
+    printf("| %-5d |\n", 2);
+    printf("| %-5d |\n", -123);
 }
