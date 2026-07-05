@@ -54,4 +54,32 @@ int main()
 
     puts("/*string*/");
     puts("//string");
+
+    // puts(1.4);
+
+    // invalid
+    //  printf("%d\n", 1.5);
+    //  printf("%d\n", (3.5 + 0.5));
+
+    printf("%f\n", 1.5);
+    printf("%f\n", (3.5 + 0.5));
+    printf("%f\n", -0.2100);
+
+    printf("円周率は%f\n", 3.14159);
+    printf("円周率は%.1f\n", 3.14159);
+    printf("円周率は%.5f\n", 3.14159);
+
+    printf("%.0f\n", 127.5);
+    printf("%.0f\n", 130.5);
+    printf("%.0f\n", 130.6);
+
+    printf("%.1f\n", 2.25);
+    printf("%.1f\n", 2.35);
+
+    printf("%.25f\n", 11111.1111111111111111111111111);
+
+    printf("%f\n", (1.5 + 0.25));
+
+    // invalid
+    //  printf("%f\n", (10.0%3.0));
 }
